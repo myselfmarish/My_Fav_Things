@@ -9,7 +9,7 @@ body {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    float: left;
+    margin-right: 500px;
     
 }
 
@@ -22,15 +22,16 @@ h1 {
 button {
     background-color: white;
     border: 1px solid lightgray;
-    padding: 7px;
+    padding: 5px;
     border-radius: 10%;
     font-size: 15px;
+    margin: 20px;
 }
 
 #settings {
     width: 25px;
     height: 25px;
- 
+    margin-top: 24px;
 }
 
 main {
@@ -38,10 +39,35 @@ position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
+border-width: 1px;
+border-style: solid;
+border-color: black;
+border-image: initial;
+padding: 30px 200px;
+border-radius: 3%;
+
 }
 
 .first_section {
-    float: left;
+    display: flex;
+    flex-direction:row;
+    position: relative;
+    flex-shrink: 1;
+    float: right;
+}
+
+.second_section {
+    
+}
+
+.third_section {
+    
+}
+
+.avatar, #info {
+    display: flex;
+    flex-direction: column;
+    
 }
 
 #first_thing {
