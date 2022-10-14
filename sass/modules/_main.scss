@@ -1,15 +1,18 @@
 body {
     background-color: white;
     font-family:'Segoe UI', sans-serif;
+    color: black;
+    padding:50px; 
+    
 }
 #avatar {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     float: left;
-
-
+    
 }
+
 h1 {
     font-weight: 200;
     font-size: 28px;
@@ -22,12 +25,12 @@ button {
     padding: 7px;
     border-radius: 10%;
     font-size: 15px;
-
 }
 
 #settings {
     width: 25px;
     height: 25px;
+ 
 }
 
 main {
@@ -37,3 +40,39 @@ left: 50%;
 transform: translate(-50%, -50%);
 }
 
+.first_section {
+    float: left;
+}
+
+#first_thing {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 3px;
+    
+}
+#first_thing:hover {
+    border: 0.5px solid lightgray;
+}
+
+#second_thing {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 3px;
+    
+}
+#second_thing:hover {
+    border: 0.5px solid lightgray;
+}
+
+#third_thing {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 3px;
+    
+}
+#third_thing:hover {
+    border: 0.5px solid lightgray;
+}

@@ -1,6 +1,8 @@
 body {
   background-color: white;
   font-family: "Segoe UI", sans-serif;
+  color: black;
+  padding: 50px;
 }
 
 #avatar {
@@ -33,6 +35,43 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.first_section {
+  float: left;
+}
+
+#first_thing {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  padding: 3px;
+}
+
+#first_thing:hover {
+  border: 0.5px solid lightgray;
+}
+
+#second_thing {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  padding: 3px;
+}
+
+#second_thing:hover {
+  border: 0.5px solid lightgray;
+}
+
+#third_thing {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  padding: 3px;
+}
+
+#third_thing:hover {
+  border: 0.5px solid lightgray;
 }
 
 /*# sourceMappingURL=main.css.map */
