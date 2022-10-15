@@ -62,23 +62,7 @@ main {
   flex-direction: column;
 }
 
-#first_thing {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  padding: 3px;
-  border: 0.5px solid lightgray;
-}
-
-#second_thing {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  padding: 3px;
-  border: 0.5px solid lightgray;
-}
-
-#third_thing {
+.item {
   width: 70px;
   height: 70px;
   border-radius: 50%;

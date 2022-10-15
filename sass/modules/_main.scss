@@ -68,7 +68,7 @@ border-radius: 3%;
     
 }
 
-#first_thing {
+.item {
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -77,24 +77,6 @@ border-radius: 3%;
     
 }
 
-
-#second_thing {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    padding: 3px;
-    border: 0.5px solid lightgray;
-    
-}
-
-
-#third_thing {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    padding: 3px;
-    border: 0.5px solid lightgray;
-}
 
 .info {
     display: inline-block;
