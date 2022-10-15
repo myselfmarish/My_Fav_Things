@@ -1,3 +1,7 @@
+.header {
+  width: 600px;
+}
+
 body {
   background-color: white;
   font-family: "Segoe UI", sans-serif;
@@ -6,10 +10,10 @@ body {
 }
 
 #avatar {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
-  margin-right: 500px;
+  display: inline-block;
 }
 
 h1 {
@@ -41,7 +45,7 @@ main {
   border-style: solid;
   border-color: black;
   border-image: initial;
-  padding: 30px 200px;
+  padding: 30px 50px;
   border-radius: 3%;
 }
 
@@ -53,7 +57,7 @@ main {
   float: right;
 }
 
-.avatar, #info {
+.avatar {
   display: flex;
   flex-direction: column;
 }
@@ -63,9 +67,6 @@ main {
   height: 70px;
   border-radius: 50%;
   padding: 3px;
-}
-
-#first_thing:hover {
   border: 0.5px solid lightgray;
 }
 
@@ -74,9 +75,6 @@ main {
   height: 70px;
   border-radius: 50%;
   padding: 3px;
-}
-
-#second_thing:hover {
   border: 0.5px solid lightgray;
 }
 
@@ -85,10 +83,22 @@ main {
   height: 70px;
   border-radius: 50%;
   padding: 3px;
+  border: 0.5px solid lightgray;
 }
 
-#third_thing:hover {
-  border: 0.5px solid lightgray;
+.info {
+  display: inline-block;
+  position: fixed;
+  top: 10px;
+  margin-left: 80px;
+}
+
+.third_section {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+  margin-top: 35px;
 }
 
 /*# sourceMappingURL=main.css.map */
