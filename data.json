@@ -1,0 +1,20 @@
+{
+    "First": {
+        "name":"Books",
+        "description":"The most simple reason I love reading is that I’m a lifelong reader and have always loved the world of words. I’m the kid who read the cereal box with my breakfast in the morning.Books are better than most people. They are wise companions who never hurt (if chosen carefully).",
+        "pictureLocation":"../img/books.png",
+        "date":"13.10.2022"
+    },
+    "Second": {
+        "name":"Social_Media",
+        "description":"Social Medias are my passion. I like it, because you can start making money with it help no matter how old you are. You just have to be creative or hard-working and unique.",
+        "pictureLocation":"../img/social_media.png",
+        "date":"13.10.2022"
+    },
+    "Third": {
+        "name":"Traveling",
+        "description":"Travel takes us out of our comfort zones and inspires us to see, taste and try new things. It constantly challenges us, not only to adapt to and explore new surroundings, but also to engage with different people, to embrace adventures as they come and to share new and meaningful experiences with friends and loved ones.",
+        "pictureLocation":"../img/traveling.jpeg",
+        "date":"13.10.2022"
+    }
+}
